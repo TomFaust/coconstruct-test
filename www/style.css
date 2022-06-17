@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100vh;
+  background-color: #202020;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 40px;
+  width: 120px;
+  font: bold;
+  font-size: 20px;
+  height: 40px;
+  padding: 16px;
+  display: flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  background: green;
+}
+
+button:hover {
+  background: lightGreen;
+}
